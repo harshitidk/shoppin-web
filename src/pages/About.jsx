@@ -11,7 +11,7 @@ const avatars = [
 
 export default function About() {
   return (
-    <div className="relative w-screen h-screen bg-white overflow-hidden font-[CircularStd]">
+    <div className="relative w-screen h-screen bg-white overflow-hidden font-[CircularStd] ">
       {/* Left icon */}
       <div className="absolute top-[120px] left-[90px]">
         <img src="/vite.svg" alt="logo" className="w-10 h-10 bg-gray-100 rounded-full p-2 shadow-lg" />

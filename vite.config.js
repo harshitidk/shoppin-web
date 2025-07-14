@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   server: {
     allowedHosts: ['.ngrok-free.app'], // 👈 Add your ngrok domain here
-  }
+  },
+  base: '/shoppin-web/',
 
 })
